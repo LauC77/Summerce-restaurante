@@ -80,6 +80,9 @@ footer{
     .footer-social a {
       justify-content: center;
     }
+    .footer-links{
+      margin: 2rem 0 2rem 0;
+    }
    .footer-links li {
     font-size: 1.5rem;
    }
@@ -99,9 +102,7 @@ footer{
   .footer-social img{
     width: 13%;
   }
-  .footer-links{
-    margin: 2rem 0 2rem 0;
-  }
+
  .footer-links li {
   font-size: 1.5rem;
  }}
