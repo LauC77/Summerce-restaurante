@@ -1,0 +1,62 @@
+.domicilios{
+    background-image: url(./domicilios.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 45rem;
+}
+.title{
+    color: white;
+    padding-top: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.domicilios p{
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.domicilios__content img{
+    width: 15%;
+    border-radius: 50%;
+    }
+.domicilios__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.domicilios__content a{
+    padding: 2rem;
+}
+.boton__dom{
+    width: 15rem;
+    height: 4.2rem;
+    font-size: 1rem;
+  }
+  @media screen and (max-width:1024px) {
+    .title{
+        font-size: 2.5rem;
+    }
+    .domicilios p{
+        font-size: 1.5rem;
+    }
+    .domicilios__content img{
+        width: 25%;
+    }
+ }
+ @media screen and (max-width:768px) {
+   .domicilios {
+    height: 34rem;
+   }
+    .title{
+        font-size: 2rem;
+    }
+    .domicilios p{
+        font-size: 1rem;
+    }
+    .domicilios__content button{
+        width: 10rem;
+        height: 3rem;
+        font-size: .75rem; 
+    }
+ }

@@ -1,0 +1,35 @@
+.fotografias{
+  background-color:#9CB9BB;
+}
+.title__carrousel{
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+/* Estilos para las imágenes en el carrusel */
+.carousel-image {
+  max-width: 100%;
+  max-height: 400px; /* Ajusta esta altura máxima según tus necesidades */
+  object-fit: contain; /* Ajusta el ajuste del objeto según tus necesidades */
+  display: block;
+  margin: 0 auto;
+}
+.carousel .slide{
+justify-content: center;
+}
+@media screen and (max-width:1028px) {
+  .title__carrousel{
+    font-size: 2.5rem;
+  }
+   }
+@media screen and (max-width:768px) {
+  .title__carrousel{
+    font-size: 2rem;
+  }
+   }
+   @media screen and (max-width:480px) {
+    .slide{
+      margin: 0px;
+    }
+     }

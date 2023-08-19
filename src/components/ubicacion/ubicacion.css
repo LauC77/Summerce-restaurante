@@ -1,0 +1,42 @@
+.mapa{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color:rgb(240, 238, 228);
+}
+.titulo-principal{
+    padding: 2rem;
+    font-size: 3rem;
+}
+.mapa p{
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.map{
+    width: 70%;
+    height: 20rem;
+}
+
+@media screen and (max-width:1024px) {
+   .titulo-principal{
+    font-size: 2.5rem;
+   }
+   .mapa p{
+    font-size:1.5rem ;
+   }
+   .map{
+    width: 80%;
+    height: 18rem;
+   }
+}
+@media screen and (max-width:768px) {
+    .titulo-principal{
+     font-size: 2rem;
+    }
+    .mapa p{
+     font-size:1rem ;
+    }
+    .map{
+     height:15rem;
+    }
+ }

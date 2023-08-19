@@ -1,0 +1,71 @@
+
+.carta{
+    background-image: url(./carta-img.jpg);
+    background-repeat: no-repeat;
+    height: 50rem;
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+  background-position: center; /* Centra la imagen de fondo */
+  background-color: rgba(0, 0, 0, 30); 
+ 
+}
+.title__menu{
+    color: white;
+    padding: 4rem;
+    font-size: 3rem;
+}
+.carta__content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carta__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carta__list a{
+    display: flex;
+    width: 20rem;
+    text-decoration: none;
+}
+.carta__list button{
+    width: 100%;
+    padding: 1.25rem;
+    margin: 2rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+.carta__list img{
+    border-radius: 50%;
+    width: 80%;
+}
+
+@media screen and (max-width:1024px) {
+    .carta{
+        height: 40rem;
+    }
+    .title__menu{
+        font-size: 2.5rem;
+    }
+    .carta__list img{
+        width: 60%;
+    }
+    .carta__list a{
+        width: 15rem;
+    }
+    .carta__list button{
+        width: 80%;
+        height: 35%;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .title__menu{
+        font-size: 2rem;
+    }
+   
+    .carta__list button{
+        width: 80%;
+        height: 35%;
+        font-size: .8rem;
+    }
+}
